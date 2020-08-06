@@ -1,5 +1,5 @@
 ** CHANGE THIS FOR RE-RUN ON NEW COMPUTER
-cd "C:\Users\stephanie.whiteman\The UWI - Cave Hill Campus\DataGroup - repo_data\data_p138\version01\2-working"
+cd "C:\Users\stephanie.whiteman\Documents\Stata Files\p138\repo_p138"
 
 
 ** CLOSE ANY OPEN LOG FILE AND OPEN A NEW LOG FILE
@@ -8,6 +8,7 @@ cd "C:\Users\stephanie.whiteman\The UWI - Cave Hill Campus\DataGroup - repo_data
 
 **  GENERAL DO-FILE COMMENTS
 //  project:      Yale-TCC Data Sharing Survey
+//  name: 		  YaleTCC_DSsurvey_DemographicsAttitudes
 //  author:       HAMBLETON, WHITEMAN, JEYASEELAN \ 30-JUL-2020
 //  description:  Data Analysis for the Yale-TCC Data Sharing Survey
 
@@ -18,7 +19,7 @@ clear all
 
 ** DO-FILE SECTION 01 - Importing the data set
 
-local datapath "C:\Users\stephanie.whiteman\The UWI - Cave Hill Campus\DataGroup - repo_data\data_p138"
+local datapath "X:\The UWI - Cave Hill Campus\DataGroup - repo_data\data_p138"
 use "`datapath'\version01\2-working\YaleTCC_DSsurvey.dta", clear
 **---------------------------------------
 ** DO-FILE SECTION 02 - Demographics Tables 1-3
