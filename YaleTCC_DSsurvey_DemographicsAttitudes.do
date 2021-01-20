@@ -50,6 +50,11 @@ tab occapation_status
 ** Years of experience in research field
 tab experience 
 
+** Demographics graphs for infographic**
+
+
+
+
 **---------------------------------------------
 ** DO-FILE SECTION 03 - Data Sharing Behaviour - table 4
 ** Likert scale type responses

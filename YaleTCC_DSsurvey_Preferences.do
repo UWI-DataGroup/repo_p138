@@ -36,7 +36,8 @@ replace time=1 if dahp_know01>75 & dahp_know01<.
 replace time=2 if dahp_know01>25 & dahp_know01<75
 replace time=3 if dahp_know01<25
 order time, after(dahp_know01)
-label define Importance 1 "Important" 2 "Neither important nor unimportant" 3 "Unimportant"
+label define Importance 1 "Unimportant" 2 "Neither important nor unimportant" 3 "Important"
+
 label values time Importance
 
 tab time
